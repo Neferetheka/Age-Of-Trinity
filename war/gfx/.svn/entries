@@ -1,0 +1,86 @@
+10
+
+dir
+25
+https://age-of-trinity.googlecode.com/svn/Age%20Of%20Trinity/war/gfx
+https://age-of-trinity.googlecode.com/svn
+
+
+
+2011-08-21T21:04:27.883935Z
+24
+Neferetheka@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+307b6068-2348-78d2-7d2b-277485f7d8dd
+
+AOT.ico
+file
+
+
+
+
+2011-07-29T20:46:35.295000Z
+06dcc77c72164cf6210c05bba824470e
+2011-07-29T21:27:06.427766Z
+14
+Neferetheka@gmail.com
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13950
+
+Destin
+dir
+
+GUI
+dir
+
+cursors
+dir
+
+icons
+dir
+
+items
+dir
+
+maps
+dir
+
+mobile
+dir
+
+units
+dir
+

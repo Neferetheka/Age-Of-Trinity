@@ -1,0 +1,4 @@
+# Module age_of_trinity
+# RPC service class, partial path of RPC policy file
+com.aerilys.ageoftrinity.client.rpc.AuthService, 0123E4046F53350471019EB9015C38C5.gwt.rpc
+com.aerilys.ageoftrinity.client.rpc.DataService, F3F815208A533F0C15B3684A8FD61E1B.gwt.rpc

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/25/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/ui/panels
+END
+ConnexionPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/ui/panels/ConnexionPanel.ui.xml
+END
+ConnexionPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/28/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/ui/panels/ConnexionPanel.java
+END
+MainPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/28/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/ui/panels/MainPanel.java
+END
+CreationPersoPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/28/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/ui/panels/CreationPersoPanel.java
+END
+GamePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/21/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/ui/panels/GamePanel.java
+END

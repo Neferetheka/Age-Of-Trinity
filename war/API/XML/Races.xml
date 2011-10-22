@@ -1,0 +1,20 @@
+<Races>
+	<Race>
+		<Id>1</Id>
+		<Nom>Humain</Nom>
+		<Description>Dein Syria per speciosam interpatet diffusa planitiem. hanc nobilitat Antiochia, mundo cognita civitas</Description>
+		<Image>gfx/units/humans/fencer-idle-1.png</Image>
+	</Race>
+	<Race>
+		<Id>2</Id>
+		<Nom>Elfe</Nom>
+		<Description>Dein Syria per speciosam interpatet diffusa planitiem. hanc nobilitat Antiochia, mundo cognita civitas</Description>
+		<Image>gfx/units/elves/archer-idle-1.png</Image>
+	</Race>
+	<Race>
+		<Id>3</Id>
+		<Nom>Nain</Nom>
+		<Description>Dein Syria per speciosam interpatet diffusa planitiem. hanc nobilitat Antiochia, mundo cognita civitas</Description>
+		<Image>gfx/units/dwarves/dwarf.png</Image>
+	</Race>
+</Races>

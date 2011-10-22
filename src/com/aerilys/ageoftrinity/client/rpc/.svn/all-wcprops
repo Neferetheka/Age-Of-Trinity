@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/26/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/rpc
+END
+AuthServiceAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/26/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/rpc/AuthServiceAsync.java
+END
+AuthService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/26/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/rpc/AuthService.java
+END
+DataService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/28/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/rpc/DataService.java
+END
+DataServiceAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/28/Age%20Of%20Trinity/src/com/aerilys/ageoftrinity/client/rpc/DataServiceAsync.java
+END

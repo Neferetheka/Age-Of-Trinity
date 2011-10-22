@@ -1,0 +1,38 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+xmlns:g="urn:import:com.google.gwt.user.client.ui">
+<g:HTMLPanel>
+	<div class="modal-header">
+        <g:Image url="gfx/units/elves/archer.png" altText="Un genre d'elfe" title="Un genre d'elfe"/> <h3>Connexion</h3>
+    </div>
+    <div class="modal-body">
+		<form class="form-stacked" style="float:left;">
+			<div class="clearfix" ui:field="divPseudo">
+				<label for="connexionPseudo">Pseudo</label>
+				<div class="input">
+					<input class="xlarge" ui:field="connexionPseudo"
+						name="connexionPseudo" placeholder="Entrez votre pseudo" required="required"
+						size="30" type="text" x-webkit-speech="" />
+				</div>
+			</div>
+			<div class="clearfix">
+				<label for="connexionMdp">Mot de passe</label>
+				<div class="input">
+					<input class="xlarge" ui:field="connexionMdp"
+						name="connexionMdp" required="required" size="30" type="password"
+						x-webkit-speech="" />
+				</div>
+			</div>
+			<g:Image ui:field="loaderImage" altText="Chargement..." url="gfx/GUI/ajax-loader.gif" styleName="loaderGif"/>
+		</form>
+			<g:Image url="gfx/GUI/sphere_humain.png" width="100px" altText="Sphere" styleName="connexionSphere"/>
+			
+		<br/><br/><br/><br/>
+		<g:HTMLPanel ui:field="errorField" styleName="alert-message error"><strong>Echec !</strong> Cela signifie que vous avez fait une erreur dans vos identifiants.</g:HTMLPanel>
+	</div>
+	<div class="modal-footer">
+			<g:Button ui:field="connexionButton" styleName="btn primary">Valider</g:Button>
+	</div>
+	
+	</g:HTMLPanel>
+</ui:UiBinder>

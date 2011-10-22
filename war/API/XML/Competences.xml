@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Version>0.01</Version>
+<Competences>
+	<Competence>
+		<Id>1</Id>
+		<Nom>Coup de base</Nom>
+		<Classe>-1</Classe>
+		<MinDg>0</MinDg>
+		<MaxDg>2</MaxDg>
+		<Portee>1</Portee>
+		<Description>Le coup de base du guerrier au corps à corps</Description>
+		<Image>gfx/units/humans/bowman.png</Image>
+	</Competence>
+</Competences>

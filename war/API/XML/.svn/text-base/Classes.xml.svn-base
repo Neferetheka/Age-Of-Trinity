@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Classes>
+	<Classe>
+		<Id>1</Id>
+		<Nom>Recrue</Nom>
+		<Description>N00B spotted !</Description>
+		<Image>gfx/units/humans/bowman.png</Image>
+		<Race>1</Race>
+	</Classe>
+	<Classe>
+		<Id>2</Id>
+		<Nom>Garde</Nom>
+		<Description>N00B spotted !</Description>
+		<Image>gfx/units/humans/pikeman.png</Image>
+		<Race>1</Race>
+	</Classe>
+	<Classe>
+		<Id>3</Id>
+		<Nom>Epéiste</Nom>
+		<Description>N00B spotted !</Description>
+		<Image>gfx/units/humans/fencer-idle-1.png</Image>
+		<Race>1</Race>
+	</Classe>
+	
+	<Classe>
+		<Id>4</Id>
+		<Nom>Guerrier Elfe</Nom>
+		<Description>N00B spotted !</Description>
+		<Image>gfx/units/elves/avenger.png</Image>
+		<Race>2</Race>
+	</Classe>
+	<Classe>
+		<Id>5</Id>
+		<Nom>Archer Elfe</Nom>
+		<Description>N00B spotted !</Description>
+		<Image>gfx/units/elves/archer-idle-1.png</Image>
+		<Race>2</Race>
+	</Classe>
+	<Classe>
+		<Id>6</Id>
+		<Nom>Druidesse</Nom>
+		<Description>N00B spotted !</Description>
+		<Image>gfx/units/elves/shaman.png</Image>
+		<Race>2</Race>
+	</Classe>
+	
+	<Classe>
+		<Id>7</Id>
+		<Nom>Guerrier Nain</Nom>
+		<Description>N00B spotted !</Description>
+		<Image>gfx/units/dwarves/avenger.png</Image>
+		<Race>3</Race>
+	</Classe>
+	
+</Classes>

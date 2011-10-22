@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+ <servlet>
+    <servlet-name>DataServiceImpl</servlet-name>
+    <servlet-class>com.aerilys.ageoftrinity.Server.DataServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DataServiceImpl</servlet-name>
+    <url-pattern>/age_of_trinity/DataService</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>AuthServiceImpl</servlet-name>
+    <servlet-class>com.aerilys.ageoftrinity.Server.AuthServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AuthServiceImpl</servlet-name>
+    <url-pattern>/age_of_trinity/AuthService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AuthServlet</servlet-name>
+    <servlet-class>com.aerilys.ageoftrinity.Server.AuthServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AuthServlet</servlet-name>
+    <url-pattern>/age_of_trinity/AuthServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

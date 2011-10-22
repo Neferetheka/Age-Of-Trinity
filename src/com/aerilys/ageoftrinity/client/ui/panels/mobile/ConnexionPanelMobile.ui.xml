@@ -1,0 +1,20 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+xmlns:g="urn:import:com.google.gwt.user.client.ui">
+<g:HTMLPanel>
+			<div class="clearfix" ui:field="divPseudo">
+				<label for="connexionPseudo" class="nameField">Pseudo</label>
+					<input class="xlarge" ui:field="connexionPseudo"
+						name="connexionPseudo" placeholder="Entrez votre pseudo" required="required"
+						 type="text" x-webkit-speech="" />
+			</div>
+			<div class="clearfix">
+				<label for="connexionMdp" class="nameField">Mot de passe</label>
+					<input class="xlarge" ui:field="connexionMdp"
+						name="connexionMdp" required="required" type="password"
+						x-webkit-speech="" />
+			</div>
+
+			<g:Button ui:field="connexionButton" styleName="btn primary">Valider</g:Button>
+	</g:HTMLPanel>
+</ui:UiBinder>

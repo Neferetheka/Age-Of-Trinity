@@ -1,0 +1,2 @@
+serviceClass: com.aerilys.ageoftrinity.client.rpc.AuthService
+path: 0123E4046F53350471019EB9015C38C5.gwt.rpc

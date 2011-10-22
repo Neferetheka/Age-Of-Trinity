@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='age_of_trinity'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name='com.aerilys.ageoftrinity.formfactor'/>
+
+  <!-- Inherit the default GWT style sheet.  You can change       -->
+  <!-- the theme of your GWT application by uncommenting          -->
+  <!-- any one of the following lines.                            -->
+  <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+  <inherits name="com.google.gwt.http.HTTP" />
+  <inherits name="com.google.gwt.xml.XML" />
+  <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+  <!-- Other module inherits                                      -->
+
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='com.aerilys.ageoftrinity.client.Main'/>
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+  
+	<replace-with class="com.aerilys.ageoftrinity.client.tools.clientfactory.ClientFactoryImpl">
+    	<when-type-is class="com.aerilys.ageoftrinity.client.tools.clientfactory.ClientFactory"/>
+	</replace-with>
+	
+	<replace-with class="com.aerilys.ageoftrinity.client.tools.clientfactory.ClientFactoryImplMobile">
+  		<when-type-is class="com.aerilys.ageoftrinity.client.tools.clientfactory.ClientFactory"/>
+  		<when-property-is name="formfactor" value="mobile"/>
+	</replace-with>
+	
+  <source path='client'/>
+  <source path='shared'/>
+
+</module>

@@ -1,0 +1,2 @@
+serviceClass: com.aerilys.ageoftrinity.client.rpc.DataService
+path: F3F815208A533F0C15B3684A8FD61E1B.gwt.rpc

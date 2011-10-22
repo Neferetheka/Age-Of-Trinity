@@ -1,0 +1,51 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<g:HTMLPanel ui:field="container">
+		<g:Grid>
+			<g:row>
+				<g:customCell>
+					<g:HTMLPanel ui:field="panelPersos">
+						<g:Image ui:field="imagePersos" url="gfx/units/elves/archer.png"/>
+						<br/>Personnages
+					</g:HTMLPanel>
+				</g:customCell>
+				<g:customCell>
+					<g:HTMLPanel ui:field="panelGame">
+						<g:Image ui:field="imageGame" url="gfx/Destin/Sage.png"/>
+						<br/>Jouer
+					</g:HTMLPanel>
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:HTMLPanel ui:field="panelBoutique">
+						<g:Image ui:field="imageBoutique" url="gfx/GUI/armor.png"/>
+						<br/>Boutique
+					</g:HTMLPanel>
+				</g:customCell>
+				<g:customCell>
+					<g:HTMLPanel ui:field="panelCarte">
+						<g:Image ui:field="imageCarte" url="gfx/maps/cloud.png"/>
+						<br/>Carte
+					</g:HTMLPanel>
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:HTMLPanel ui:field="panelProfil">
+						<g:Image ui:field="imageProfil" url="gfx/GUI/objMag.png"/>
+						<br/>Profil
+					</g:HTMLPanel>
+				</g:customCell>
+				<g:customCell>
+					<g:HTMLPanel ui:field="panelDeconnexion">
+						<g:Image ui:field="imageDeconnexion" url="gfx/GUI/Tiles/die.png"/>
+						<br/>D&eacute;connexion
+					</g:HTMLPanel>
+				</g:customCell>
+			</g:row>
+		</g:Grid>
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

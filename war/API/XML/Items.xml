@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<Armes>
+		<Arme>
+			<Id>1</Id>
+			<Nom>Epée de bois</Nom>
+			<Description>Une épée de bois dont la résistance n'a d'égale que la laideur.</Description>
+			<Image>gfx/items/woodensword.png</Image>
+			<Prix>10</Prix>
+			<inBoutique>1</inBoutique>
+			<Race>-1</Race>
+			<Classe>-1</Classe>
+			<Type>0</Type>
+			<MinDegatsBonus>1</MinDegatsBonus>
+			<MaxDegatsBonus>1</MaxDegatsBonus>
+			<PorteeBonus>0</PorteeBonus>
+		</Arme>
+		<Arme>
+			<Id>2</Id>
+			<Nom>Arbalète lourde</Nom>
+			<Description>Tenez-vous à vos carreaux, ça pourrait vous sauver la vie !</Description>
+			<Image>gfx/items/crossbow-human.png</Image>
+			<Prix>25</Prix>
+			<inBoutique>1</inBoutique>
+			<Race>-1</Race>
+			<Classe>-1</Classe>
+			<Type>1</Type>
+			<MinDegatsBonus>1</MinDegatsBonus>
+			<MaxDegatsBonus>2</MaxDegatsBonus>
+			<PorteeBonus>2</PorteeBonus>
+		</Arme>
+		<Arme>
+			<Id>3</Id>
+			<Nom>Fouet d'explorateur</Nom>
+			<Description>Si vous êtes un Lord Anglais, moi je suis Mickey Mouse !</Description>
+			<Image>gfx/items/whip.png</Image>
+			<Prix>50</Prix>
+			<inBoutique>1</inBoutique>
+			<Race>-1</Race>
+			<Classe>-1</Classe>
+			 <Type>0</Type>
+			<MinDegatsBonus>2</MinDegatsBonus>
+			<MaxDegatsBonus>5</MaxDegatsBonus>
+			<PorteeBonus>0</PorteeBonus>
+		</Arme>
+	</Armes>
+	<Armures>
+		<Armure>
+			<Id>1</Id>
+			<Nom>Armure de cuir</Nom>
+			<Description>Une armure en cuir de canard !</Description>
+			<Image>gfx/items/cuirass_leather.png</Image>
+			<Prix>30</Prix>
+			<inBoutique>1</inBoutique>
+			<Race>-1</Race>
+			<Classe>-1</Classe>
+			<Protection>1</Protection>
+		</Armure>
+	</Armures>
+	<Objets>
+		<Objet>
+			<Id>1</Id>
+			<Nom>Pendentif des Etoiles</Nom>
+			<Description>Pour Celle qui de Là-Haut éclaire votre chemin !</Description>
+			<Image>gfx/items/ankh.png</Image>
+			<Prix>75</Prix>
+			<inBoutique>1</inBoutique>
+			<Race>-1</Race>
+			<Classe>-1</Classe>
+			<Effet>-1</Effet>
+		</Objet>
+	</Objets>
+</Items>

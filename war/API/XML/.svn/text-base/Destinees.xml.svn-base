@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Destinees>
+	<Destinee>
+		<Id>1</Id>
+		<Nom>Meneur</Nom>
+		<Description>Fier combattant, vous savez aussi remotiver vos alliés à grands coups de cris !</Description>
+		<Effet>+1 armure à tous les alliés à une distance de 2 ou moins</Effet>
+		<Image>gfx/Destin/Meneur.png</Image>
+		<Prix>30</Prix>
+	</Destinee>
+	<Destinee>
+		<Id>2</Id>
+		<Nom>Sage</Nom>
+		<Description>Vous êtes le plus sage de votre village !</Description>
+		<Effet>+5% d'expérience après chaque combat</Effet>
+		<Image>gfx/Destin/Sage.png</Image>
+		<Prix>50</Prix>		
+	</Destinee>
+	<Destinee>
+		<Id>3</Id>
+		<Nom>Fortuné</Nom>
+		<Description>La fortune sourit aux audacieux !</Description>
+		<Effet>+5% d'or après chaque combat</Effet>
+		<Image>gfx/Destin/Fortune.png</Image>
+		<Prix>50</Prix>		
+	</Destinee>
+</Destinees>
